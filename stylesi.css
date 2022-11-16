@@ -1,0 +1,71 @@
+.containindu{
+    max-width: 500px;
+    margin:20px;
+    padding:20px 40px;
+    border-radius: 10px;
+    width:fit-content;
+    background-color: rgb(255, 255, 255);
+}
+.contains{
+  max-width: 850px;
+  margin:25px;
+  padding:25px 50px;
+  border-radius: 15px;
+  width:fit-content;
+  background-color: rgb(255, 255, 255);
+}
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4060f4;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .indu-25 {
+    float: left;
+    width: 30%;
+    margin-top: 5px;
+    
+  }
+  
+  .indu-75 {
+    float: left;
+    width: 70%;
+    margin-top: 5px;
+  }
+button {
+   
+  
+}
+input{
+    border-radius: 5px;
+    border: none;
+    border-style: outset;
+    padding: 15px;
+   
+    
+}
+label{
+    font-size: large;
+}
+input#name:invalid:focus{
+    border: 4px solid pink;
+  }
+  input#email:invalid:focus{
+    border: 4px solid pink;
+  }
+  input#password:invalid:focus{
+    border: 4px solid pink;
+  }
+  input#acceptTerms:invalid:focus{
+    border: 4px solid pink;
+  }
+  input#dob:invalid:focus{
+    border: 4px solid pink;
+  }
